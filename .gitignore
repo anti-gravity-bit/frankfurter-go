@@ -1,0 +1,31 @@
+# Build output
+/fx
+*.exe
+*.test
+/bin/
+/dist/
+
+# Coverage
+coverage.out
+coverage.txt
+*.coverprofile
+
+# Never commit working material, credentials or local env
+evidence/
+/evidence/
+*.evidence.*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+secrets.*
+credentials.*
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
